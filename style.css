@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+} 
+
+
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+
+.imagem img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100px;
+    height: 40px;
+    display: block;
+}
+
+#on {
+    background: green;
+    color: white;
+    width: 130px;
+    height: 40px;
+}
+
+#off {
+    background: red;
+    color: white;
+    width: 130px;
+    height: 40px;
+}
+
+#on:hover {
+    background: darkgreen;
+}
+
+#off:hover {
+    background: darkred;
+}
