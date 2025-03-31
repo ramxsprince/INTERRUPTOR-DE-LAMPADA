@@ -7,7 +7,7 @@ btnTurnOn.addEventListener("click", () => {
         lamp.classList.remove("off");
         lamp.classList.add("on");
     }
-    lamp.src = "./img/lampada_ligada.png";
+    lamp.src = "./lampada-ligada.png";
     console.log(lamp.className);
 });
 
@@ -16,6 +16,6 @@ btnTurnOff.addEventListener("click", () => {
         lamp.classList.remove("on");
         lamp.classList.add("off");
     }
-    lamp.src = "./img/lampada_desligada.png";
+    lamp.src = "./lampada-desligada.png";
     console.log(lamp.className);
 });
